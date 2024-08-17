@@ -12,7 +12,7 @@ Refer to the READMEs in the [data](https://github.com/F3EST/F3EST/tree/main/data
 To train baseline models, use `python3 train_baselines.py <dataset_name> <frame_dir> -s <save_dir> -m <model_arch> -t <head_arch>`.
 To train the $F^3EST$ model, use `python3 train_f3est.py <dataset_name> <frame_dir> -s <save_dir> -m <model_arch>`.
 
-* `<dataset_name>`: supports finetennis, badmintonDB, finediving, finegym
+* `<dataset_name>`: supports f3tennis, shuttleset, finediving, finegym
 * `<frame_dir>`: path to the extracted frames
 * `<save_dir>`: path to save logs, checkpoints, and inference results
 * `<model_arch>`: feature extractor architecture (e.g., rny002_gsm)
