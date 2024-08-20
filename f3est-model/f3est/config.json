@@ -1,0 +1,19 @@
+{
+  "batch_size": 4,
+  "clip_len": 96,
+  "crop_dim": 224,
+  "dataset": "f3tennis",
+  "epoch_num_frames": 2000000,
+  "feature_arch": "rny002_gsm",
+  "gpu_parallel": false,
+  "learning_rate": 0.001,
+  "mask_ratio": 0.15,
+  "max_seq_len": 20,
+  "num_classes": 30,
+  "num_epochs": 50,
+  "sparse_att_mask": true,
+  "start_val_epoch": 40,
+  "stride": 2,
+  "temporal_arch": "gru",
+  "warm_up_epochs": 3
+}
