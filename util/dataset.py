@@ -4,9 +4,10 @@ from util.io import load_text
 
 
 DATASETS = [
-    'finetennis',
+    'f3tennis',
     'shuttleset',
-    'finegym_start_new'
+    'finegym',
+    'finediving'
 ]
 
 

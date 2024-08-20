@@ -58,8 +58,10 @@ def get_args():
         '-m', '--feature_arch', type=str, required=True, choices=[
             # From torchvision
             'rn50_gsm',
+            'rny002_gsm',
             'rny002_tsm',
             'rny008_gsm',
+            'rny008_tsm',
             'slowfast'
         ], help='architecture for feature extraction')
     parser.add_argument(
