@@ -69,7 +69,7 @@ def get_args():
         choices=['gru', 'f3est'])
 
     parser.add_argument('--max_seq_len', type=int, default=20)
-    parser.add_argument('--clip_len', type=int, default=128)
+    parser.add_argument('--clip_len', type=int, default=96)
     parser.add_argument('--crop_dim', type=int, default=224)
     parser.add_argument('--batch_size', type=int, default=4)
     parser.add_argument('--stride', type=int, default=2)
@@ -81,7 +81,7 @@ def get_args():
     parser.add_argument('--warm_up_epochs', type=int, default=3)
     parser.add_argument('--num_epochs', type=int, default=50)
 
-    parser.add_argument('-lr', '--learning_rate', type=float, default=0.0005)
+    parser.add_argument('-lr', '--learning_rate', type=float, default=0.001)
     parser.add_argument('-s', '--save_dir', type=str, required=True,
                         help='Dir to save checkpoints and predictions')
 
